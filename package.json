@@ -35,6 +35,7 @@
     "update": "pnpm update -i -L -r"
   },
   "devDependencies": {
+    "@barba/prefetch": "^2.1.10",
     "@changesets/changelog-git": "^0.2.0",
     "@changesets/cli": "^2.27.1",
     "@finsweet/eslint-config": "^2.0.7",
@@ -43,6 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "cross-env": "^7.0.3",
+    "dat.gui": "^0.7.9",
     "esbuild": "^0.20.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
@@ -52,7 +54,19 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.40.0"
+    "@barba/core": "^2.9.7",
+    "@finsweet/attributes-cmsload": "^1.12.0",
+    "@finsweet/ts-utils": "^0.39.2",
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "@studio-freight/lenis": "^1.0.27",
+    "gsap": "^3.12.2",
+    "split-lines": "^3.0.0",
+    "split-text": "^1.0.0",
+    "split-type": "^0.3.4",
+    "swiper": "^11.1.1",
+    "three": "^0.164.1",
+    "three-dat.gui": "^2.0.7"
   },
   "engines": {
     "pnpm": ">=9"
